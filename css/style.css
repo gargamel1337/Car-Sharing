@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family:'Nunito Sans', sans-serif;
+}
+header{
+    background-image: url("../images/Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 778px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 778px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.menu{
+    background: #00000066;
+    z-index: 1;
+    position: absolute;
+    height: 93px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top:0;
+}
+.menu-title{
+    font: normal normal bold 35px Nunito Sans;
+    margin-top: 20px;
+    margin-left:182px;
+}
+.menu-title-img{
+    width: 35px;
+    height: 31px;
+}
+span{
+    color: orangered;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 165px;
+    margin-top: 33px;
+    width: 486px;
+}
+header{
+    width: 1352px;
+    margin: 0 auto;
+}
+.list a{
+    color: white;
+    text-decoration: none;
+    font: normal normal bold 16px/22px Nunito Sans;
+    padding: 39px 40px;
+}
+.list a:active{
+    background: #FFFFFF33;
+}
+/*stylowanie menu powyzej, teraz poczatek ßrodkowej czesci*/
+.header-body{
+    width: 917px;
+    height: 299px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;flex-direction: column;
+}
+.header-main{
+    z-index: 1;
+}
+.main-title{
+    width: 643px;
+    margin:0 128px 10px 128px;
+    font: normal normal 900 90px Nunito Sans;
+    text-shadow: 0px 3px 6px #00000040;
+}
+.main-text{
+    text-align: center;
+    font: normal normal bold 16px/22px Nunito Sans;
+    width: 917px;
+    line-height: 22px;
+}
+.header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    margin: 50px 228px 0 228px;
+    font: normal normal bold 16px/22px Nunito Sans;
+}
+.header-btn a{
+    border-radius: 40px;
+    text-decoration: none;
+    display: block;
+}
+.btn-first{
+    background: #FF0000;
+    box-shadow: 0px 3px 6px #FF00004D;
+    color: white;
+    padding:23px 54px;
+    margin-right: 13px;
+}
+.btn-secend{
+    color:#FF0000;
+    background: white;
+    padding: 23px 51px;
+    margin-left: 13px;
+}
+.header-point{
+    background: #FF0000;
+    box-shadow: 0px 3px 6px #FF00004D;
+    bottom: 0;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -25px;
+}
+/* poni«ej stylowanie dls drugiej strony (białej)*/
+.main-container{
+    display: flex;
+    width: 1088px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+}
+.logo{
+    font: normal normal bold 35px Nunito Sans;
+    justify-content: center;
+    align-items: center;
+}
+.article-photo-img{
+    width: 352px;
+    height: 234px;
+}
